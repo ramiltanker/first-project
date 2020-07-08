@@ -1,14 +1,48 @@
 .page {
-    font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
 }
 .header {
-    height: 95px;
-    display: flex;
-    max-width: 1330px;
-    min-width: 1280px;
-  }
-  .header__link {
-    font-size: 28px;
-    text-decoration: none;
-    color: #10191E;
-  }
+  height: 95px;
+  display: flex;
+  max-width: 1330px;
+  min-width: 1280px;
+}
+.header__link {
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191e;
+}
+.centered-block {
+  margin: auto;
+}
+
+.header__link {
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191e;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1330px;
+  min-width: 1280px;
+}
+
+.page__menu {
+  margin: 40px auto;
+}
+
+.menu__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191e;
+  margin-right: 20px;
+}
+
+.menu__link_active {
+  text-decoration: underline;
+}
